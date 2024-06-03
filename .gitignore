@@ -1,2 +1,9 @@
-*.csv
-results/
+*.csv      #ignored all data files
+!final.csv #exept final.csv
+results/*  #ignore everything in results folder
+!results/plots #do not ignored results/plot contents
+!results/data/
+results/data/position/gps/*.csv
+!results/data/positions/gps/info.txt
+**/*.csv
+
