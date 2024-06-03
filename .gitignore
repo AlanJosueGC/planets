@@ -15,4 +15,4 @@ results/
 .Rdata
 *.Rproj
 
-graphs/
+graphs/ #Add graphs to .gitignore
