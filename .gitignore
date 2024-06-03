@@ -7,3 +7,10 @@ results/data/position/gps/*.csv
 !results/data/positions/gps/info.txt
 **/*.csv
 
+*.dat
+results/
+
+.Rproj.user
+.Rhistory
+.Rdata
+*.Rproj
